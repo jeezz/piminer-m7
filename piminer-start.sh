@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 # Raspberry Pi Mining Monitor Version 0.1
 # Happy Hashing!!
 # Exit Trap. Kill all child processes on exit eg. STRG+C
