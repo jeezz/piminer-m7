@@ -19,13 +19,13 @@ make -j4
 
 ## get RPi-gov
 wget https://raw.githubusercontent.com/DavidM42/rpi-cpu.gov/master/install.sh
-sudo chmod +x ./install.sh
+sudo chmod +x install.sh
 sudo ./install.sh --nochown
 sudo rm install.sh
 
 ##get piminer-start
-wget piminer-start.sh
-chmod +x ./piminer.sh
+wget https://raw.githubusercontent.com/jeezz/piminer/master/piminer-start.sh
+chmod +x piminer.sh
 
 ## change CPU-Governor
 read -n 1 -s -r -p "You can coose to change the CPU Governor. Please be carefull if you don't use heatspreader"
