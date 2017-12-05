@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 ##Installing Essentials
 echo " Installing Essentials ..."
 sudo apt-get update -y > /dev/null
