@@ -1,7 +1,7 @@
 
-## piminer-start
+# piminer-start
 piminer-start is a script to start and monitor your minerd hashrate and the temerature of your Raspberry Pi
-# Download: 
+## Download: 
 ```shell
 wget https://raw.githubusercontent.com/jeezz/piminer-start/master/piminer-start-sh
 ```
