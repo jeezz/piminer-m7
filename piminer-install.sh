@@ -12,9 +12,9 @@ git clone https://github.com/novaspirit/wolf-m7m-cpuminer
 ## building Wold-m7m-miner
 cd wolf-m7m-cpuminer
 ./autogen.sh
-./configure CFLAGS="mfpu=neon-vfpv4"
+./configure CFLAGS="-mfpu=neon-vfpv4"
 sed -i -e 's/-march=native/-mcpu=cortex-a53/g' Makefile
-sed -i -e 's/-march=native/-mcpu=cortex-a53/g' /m7/Makefile
+sed -i -e 's/-march=native/-mcpu=cortex-a53/g' m7/Makefile
 make -j4
 
 ## get RPi-gov
@@ -25,7 +25,7 @@ sudo rm install.sh
 
 ##get piminer-start
 wget https://raw.githubusercontent.com/jeezz/piminer/master/piminer-start.sh
-chmod +x piminer.sh
+chmod +x piminer-start.sh
 
 ## change CPU-Governor
 read -n 1 -s -r -p "You can coose to change the CPU Governor. Please be carefull if you don't use heatspreader"
