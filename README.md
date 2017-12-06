@@ -1,6 +1,6 @@
 
 # piminer
-piminer is a script to install the wolf-m7m-cpuminer with an extra script for monitoring your Pi
+piminer is a script to install the wolf-m7m-cpuminer with an extra script for monitoring your RPi 3
 ## Download: 
 ```shell
 wget https://raw.githubusercontent.com/jeezz/piminer/master/piminer-install.sh
