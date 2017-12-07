@@ -11,9 +11,10 @@ trap "kill 0" EXIT
 ./minerd -a m7mhash -o stratum+tcp://xmg.suprnova.cc:7128 -u jeezz.Pi -p x -S -q &
 
 # loop
-echo "Miner Started. Wait 1 minute to get results"
-echo "Output will come from /var/log/syslog"
-echo "As long as no new shares where found the script will show last Syslog entry :-P"
+echo "Miner Started. Wait 1 minute to get proper results"
+echo "This script will show you your current CPU Speed,CPU Temp and Hashrate"
+echo "Please keep in mind that as long as the Miner did not sind a Share the script will not report any Hahsrate or Lastshare"
+echo "Hahsrate and Lastshare are the last value reported by the miner in /var(log/syslog"
 grep stratum+tcp /var/log/syslog | tail -n 1 | cut -d" " -f7-
 sleep 60;
 while true; do echo -n
