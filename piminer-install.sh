@@ -25,7 +25,7 @@ cd ../
 
 ## get RPi-gov
 mkdir rpi-cpu.gov
-cd rip-cpu.gov
+cd rpi-cpu.gov
 
 echo "Cloning rpi-cpu.gov"
 wget https://raw.githubusercontent.com/DavidM42/rpi-cpu.gov/master/install.sh > /dev/null
