@@ -8,7 +8,7 @@ trap "kill 0" EXIT
 # Start miner in background  reporting hashrate and fround shares to syslog
 # add you miner config here
 # -o [your stratum pool] -u [user.workerID] -p [password]
-./minerd -a m7mhash -o stratum+tcp://xmg.suprnova.cc:7128 -u jeezz.Pi -p x -S -q &
+./m-minerd -a m7mhash -o stratum+tcp://xmg.suprnova.cc:7128 -u jeezz.Pi -p x -S -q &
 
 # loop
 echo "Miner Started. Wait 1 minute to get proper results"
