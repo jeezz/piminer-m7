@@ -18,6 +18,7 @@ chmod +x piminer-install.sh
 
 after install is done run ./piminer-start.sh from /piminer/m-cpuminer-v2 </br>
 watch your temperature as mining will stress your CPU to the max!! </br>
+Edit the ./piminer-start.sh with your pool information </br>
 Happy Mining!!
 
 ## Credits
